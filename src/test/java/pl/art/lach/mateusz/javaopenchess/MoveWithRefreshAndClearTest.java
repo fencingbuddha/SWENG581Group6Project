@@ -1,4 +1,4 @@
-package pl.art.lach.mateusz.javaopenchess.SWENG581ProjectTests;
+package pl.art.lach.mateusz.javaopenchess;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -21,7 +21,7 @@ import static org.mockito.ArgumentMatchers.eq;
 import static org.mockito.ArgumentMatchers.isNull;
 import static org.mockito.Mockito.*;
 
-public class ChessboardTest {
+public class MoveWithRefreshAndClearTest {
     
     @InjectMocks
     private Chessboard chessboard;
@@ -58,6 +58,9 @@ public class ChessboardTest {
         startSquare = new Square(0, 0, whiteRook);
         endSquare = new Square(4, 4, null); // Example Empty Destination
     }
+
+    // Function 2 Tests
+
     // Test Case 1
     @Test
     public void testCase1_moveToEmptySquare_withRefreshAndClearHistory() {
