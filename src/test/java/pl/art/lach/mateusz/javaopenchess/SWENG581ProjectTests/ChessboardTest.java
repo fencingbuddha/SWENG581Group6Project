@@ -1,4 +1,4 @@
-package pl.art.lach.mateusz.javaopenchess.core;
+package pl.art.lach.mateusz.javaopenchess.SWENG581ProjectTests;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -6,6 +6,8 @@ import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 import org.mockito.InjectMocks;
 
+import pl.art.lach.mateusz.javaopenchess.core.Chessboard;
+import pl.art.lach.mateusz.javaopenchess.core.Square;
 import pl.art.lach.mateusz.javaopenchess.core.moves.Castling;
 import pl.art.lach.mateusz.javaopenchess.core.moves.MovesHistory;
 import pl.art.lach.mateusz.javaopenchess.core.pieces.Piece;
